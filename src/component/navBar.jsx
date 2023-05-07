@@ -2,32 +2,34 @@ import { MdAddchart, MdArrowRight, MdSearch } from "react-icons/md";
 
 const NavBar = () => {
   return (
-    <div className="flex-col bg-red-600">
-      <div>
-        <div className="">
-          <MdAddchart /> educative
+    <div className="flex justify-between font-bold text-gray-800">
+      <div className="flex py-4">
+        <div className="mr-4">
+          <a href="#" className="flex">
+            <MdAddchart size={"32px"} color={"blue"} /> educative
+          </a>
         </div>
-        <div className="wrapper">
-          <span>Solutions</span>
-          <span>Products</span>
-          <span>Pricing</span>
+        <div className="wrapper ">
+          <span className="py-6 px-4">Solutions</span>
+          <span className="py-6 px-4">Products</span>
+          <span className="py-6 px-4">Pricing</span>
         </div>
       </div>
-      <div>
-        <div className="">
-          <MdSearch /> Search
-        </div>
-        <div></div>
-        <div className="">
-          <a href="">
-            <span>Solutions</span>
-          </a>
-          <a href="">
-            <button>
-              Join for free <MdArrowRight />
-            </button>
-          </a>
-        </div>
+
+      <div className="flex">
+        <a href="#" className="flex py-4 px-2">
+          <MdSearch size={"24px"} /> <p className="ml-3">Search</p>
+        </a>
+
+        <div className="h-10 w-0.5 m-3 bg-gray-600 "></div>
+
+        <a className="py-4 px-3" href="">
+          Log in
+        </a>
+
+        <button className="flex px-4 py-2 my-2 mx-3 bg-blue-500 font-bold text-white ">
+          Join for free <MdArrowRight />
+        </button>
       </div>
     </div>
   );
