@@ -1,9 +1,9 @@
 import { MdArrowForwardIos, MdSupervisedUserCircle } from "react-icons/md";
 import HoverContent from "../service/HoverContent";
 
-const SolutionsContent = ({ childrenH2, childrenP }) => {
+const SolutionsContent = ({ childrenH2, childrenP, iconName }) => {
   return (
-    <div className="shadow p-3 w-auto inline-block">
+    <div className="shadow w-auto inline-block">
       <HoverContent
         childrenH2={"Educative Enterprise"}
         childrenP={"Enablement platform"}
