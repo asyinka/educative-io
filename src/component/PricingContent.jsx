@@ -1,4 +1,5 @@
-import { MdSupervisedUserCircle } from "react-icons/md";
+import { MdMan, MdSupervisedUserCircle } from "react-icons/md";
+import HoverContent from "../service/HoverContent";
 
 const PricingContent = ({ childrenH2, childrenP, iconName }) => {
   return (
@@ -9,9 +10,9 @@ const PricingContent = ({ childrenH2, childrenP, iconName }) => {
         iconName={<MdSupervisedUserCircle size={"40px"} />}
       />
       <HoverContent
-        childrenH2={"For indivi"}
+        childrenH2={"For individual"}
         childrenP={"Learn new technologies"}
-        iconName={<MdArrowForwardIos size={"40px"} />}
+        iconName={<MdMan size={"40px"} />}
       />
     </div>
   );
