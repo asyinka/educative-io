@@ -10,6 +10,6 @@ I focused on the implementation of the smooth display of navBar contents when a 
 - Tailwindcss
 - Material design (to mimic the educative.io headings) from <i>react-icons/md</i>
 
-  1. **clone the github repo:- \***git clone\*\*\*
+  1. clone the github repo:- **_git clone_**
 
-  2. Then <i>npm install</i> then run <i>npm run dev</i>
+  2. <i>npm install</i> then run **_npm run dev_**
