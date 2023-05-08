@@ -12,4 +12,6 @@ I focused on the implementation of the smooth display of navBar contents when a 
 
   1. clone the github repo:- **_git clone_**
 
-  2. <i>npm install</i> then run **_npm run dev_**
+  2. <i>npm install</i>
+
+  3. then run **_npm run dev_**
