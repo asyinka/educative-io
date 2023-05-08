@@ -1,8 +1,10 @@
 # Educative.io Navigation Bar
 
-<article>This projects made a similar outlook of the educative.io navigation bar.
+<article>This projects made a similar outlook of educative.io website's navigation bar.
 
-I focused on the implementation of the smooth display of navBar contents when a user hovers on the navigation bar content.</article>
+I focused on the implementation of the smooth display of navBar contents when a **user hovers on the navigation bar content**.
+
+The content of each section are displayed when the user hover on the navigation bar content/heading</article>
 
 ### This project include the use of:
 
