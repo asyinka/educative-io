@@ -8,7 +8,8 @@ I focused on the implementation of the smooth display of navBar contents when a 
 
 - React.js
 - Tailwindcss
-- Material design to mimic the educative.io headings from "react-icons/md"
+- Material design (to mimic the educative.io headings) from <i>react-icons/md</i>
 
-** 1. clone the github repo:- git clone **
-** 2. run 'npm install' then 'npm run dev' **
+  1. **clone the github repo:- \***git clone\*\*\*
+
+  2. Then <i>npm install</i> then run <i>npm run dev</i>
