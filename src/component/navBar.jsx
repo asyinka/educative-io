@@ -4,8 +4,23 @@ import {
   MdArrowRightAlt,
   MdSearch,
 } from "react-icons/md";
+import PricingContent from "./PricingContent";
+import { useState } from "react";
+import SolutionsContent from "./SolnContent";
+import ProductContent from "./ProductContent";
 
 const NavBar = () => {
+  const [isHovering, setIsHovering] = useState(false);
+  const [isHoveringProd, setIsHoveringProd] = useState(false);
+  const [isHoveringPri, setIsHoveringPri] = useState(false);
+
+  // function handleMouseOver() {
+  //   setIsHovering(true);
+  // }
+
+  // function handleMouseOut() {
+  //   setIsHovering(false);
+  // }
   return (
     <div className="flex justify-between font-bold text-gray-800">
       <div className="flex py-4">
@@ -15,9 +30,30 @@ const NavBar = () => {
           </a>
         </div>
         <div className="wrapper ">
-          <span className="py-6 px-4 hover:bg-gray-100">Solutions</span>
-          <span className="py-6 px-4 hover:bg-gray-100">Products</span>
-          <span className="py-6 px-4 hover:bg-gray-100">Pricing</span>
+          <span
+            onMouseEnter={() => setIsHovering(true)}
+            onMouseLeave={() => setIsHovering(false)}
+            className="py-6 px-4 hover:bg-gray-100 cursor-pointer"
+          >
+            Solutions
+            {isHovering && <SolutionsContent />}
+          </span>
+          <span
+            onMouseEnter={() => setIsHoveringProd(true)}
+            onMouseLeave={() => setIsHoveringProd(false)}
+            className="py-6 px-4 hover:bg-gray-100"
+          >
+            Products
+            {isHoveringProd && <ProductContent />}
+          </span>
+          <span
+            onMouseEnter={() => setIsHoveringPri(true)}
+            onMouseLeave={() => setIsHoveringPri(false)}
+            className="py-6 px-4 hover:bg-gray-100"
+          >
+            Pricing
+            {isHoveringPri && <PricingContent />}
+          </span>
         </div>
       </div>
 

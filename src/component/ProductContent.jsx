@@ -12,7 +12,7 @@ import {
 
 const ProductContent = ({ childrenH2, childrenP, iconName }) => {
   return (
-    <div className="shadow w-auto inline-block">
+    <div className="shadow w-auto inline-block absolute top-14 left-56">
       <HoverContent
         childrenH2={"Courses for Enterprise"}
         childrenP={"Supercharge your engineering team"}

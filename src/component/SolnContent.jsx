@@ -3,7 +3,7 @@ import HoverContent from "../service/HoverContent";
 
 const SolutionsContent = ({ childrenH2, childrenP, iconName }) => {
   return (
-    <div className="shadow w-auto inline-block">
+    <div className="shadow w-auto inline-block absolute top-14 left-32">
       <HoverContent
         childrenH2={"Educative Enterprise"}
         childrenP={"Enablement platform"}
